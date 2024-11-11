@@ -21,9 +21,9 @@ fetch('projects.json')
       description.textContent = project.description;
       card.appendChild(description);
       
-
-
-
+      const category = document.createElement('span');
+      category.textContent = project.category;
+      card.appendChild(category);
 
 
       // const button = document.createElement('button'); // create a button element
